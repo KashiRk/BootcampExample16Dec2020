@@ -30,4 +30,8 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
+<<<<<<< HEAD
         run: surge ./ capricious-time.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+=======
+        run: surge ./ capricious-time.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+>>>>>>> abd3b7adc0ad6d219cb1c7018e0a12f8470c60fc
